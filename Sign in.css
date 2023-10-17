@@ -1,0 +1,81 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.div_sign_in {
+    margin: 0 auto;
+    border: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: white;
+    width: 280px;
+    height: 330px;
+}
+
+.div_input_username,
+.div_input_password,
+.div_input_ConfirmPassword {
+    display: flex;
+    justify-content: center;
+}
+
+.input_username,
+.input_password,
+.confirm_password {
+    padding-left: 10px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(240, 240, 240);
+}
+
+.div_button_log_in,
+.div_button_sign_up {
+    display: flex;
+    justify-content: center;
+}
+
+.button_log_in,
+.button_sign_up {
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+    background-color: rgb(88, 101, 242);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-bottom: 10px;
+}
+
+.button_sign_up {
+    background-color: black;
+}
+
+.button_log_in:hover,
+.button_sign_up:hover {
+    opacity: 0.8;
+}
+
+.button_log_in:active,
+.button_sign_up:active {
+    opacity: 0.6;
+}
